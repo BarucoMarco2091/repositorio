@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(69, 136, 97);
+    color: white;
+}
+
+header {
+    border-radius: 10px;
+    background-color: rgb(69, 136, 97);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+main {
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+}
+
+
+/*projects*/
+
+.row row-cols-1 row-cols-md-2 g-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cards {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+}
+
+
+.image {
+    float: none;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/*contact*/
+
+.contact {
+    justify-content: center;
+    align-items: center;
+}
